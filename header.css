@@ -1,0 +1,25 @@
+.right-bar-img {
+    padding-top: 3px;
+}
+.right-bar-img img{
+    width: 50px;
+    height: 50px; 
+    border-radius: 50%;
+    border: 4px solid #61BC71;  
+    margin-right: 10px;
+}
+.user_name{
+    font-size: 25px; 
+    font-weight: bold; 
+    color: white; 
+    padding-top: 5px; 
+    margin-right: 10px;
+}
+.icon_setting{
+    padding-top: 5px;
+     margin-right: 10px;
+}
+.btn{
+    font-weight: bold; 
+    font-size: 20px;
+}

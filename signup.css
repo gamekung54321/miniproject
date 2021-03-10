@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.wave{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+.backgroud{
+    margin-top: 110px;
+    margin-left: 170px;
+}
+.backgroud img{
+    width: 650px;
+}
+.signup-form{
+    margin-top: -42%;
+    margin-left: 65%;
+    width: 400px;
+    height: auto;
+    padding: 30px;
+}
+.signup-form .logo{
+    margin: auto;
+    width: 120px;
+}
+.signup-form h2{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    font-weight: bold;
+}
+.signup-form .form-group{
+    height: 50px;
+	width: auto;
+    position: relative;
+    margin-top: 20px;
+}
+.signup-form .form-group input{
+    padding-left: 40px;
+    height: 100%;
+	width: 100%;
+	border: none;
+	font-size: 20px;
+	border-bottom: 2px solid  #d9d9d9;
+}
+.signup-form .form-group i{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color:#d9d9d9;
+    transition: .5s;
+}
+.form-group input:focus ~ i:before,
+.form-group input:valid ~ i:before{
+    color: #1EE12C;
+}
+.form-group input:focus ~ label,
+.form-group input:valid ~ label{
+    transform: translateY(-30px);
+    font-size: 22px;
+}
+.signup-form .form-group .underline{
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 100%;
+}
+.form-group .underline:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #1EE12C;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+.form-group input:focus ~ .underline:before,
+.form-group input:valid ~ .underline:before{
+    transform: scaleX(1);
+}
+.signup-form .form-group label{
+    padding-left: 40px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color:#999;
+    pointer-events:none;
+    transition: all 0.3s ease;
+}
+.signup-form .form-gender{
+    height: 50px;
+	width: auto;
+    position: relative;
+    margin-top: 20px;
+}
+.signup-form .form-gender i{
+    left: 0;
+    padding: 9px 8px;
+    color:#d9d9d9;
+    transition: .5s;
+}
+.signup-form .form-gender label{
+    font-size: 20px;
+    color:#999;
+    margin-bottom: 10px;
+}
+.signup-form .btn{
+    margin-top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    height: 50px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: #1EE12C;
+}
+.signup-form a{
+    color: red;
+}
+.signup-form a:hover{
+    text-decoration: underline;
+}
